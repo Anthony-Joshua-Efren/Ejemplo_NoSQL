@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:background="@color/primaryDark"
+    app:navigationIcon="@drawable/baseline_apps_24"
+    app:navigationIconTint="@color/primaryLigth"
+    app:title="@string/app_name"
+    app:titleCentered="true"
+    app:titleTextColor="@color/white"
+    app:subtitle=""
+    app:subtitleTextColor="@color/grey"
+    app:subtitleCentered="true">
+
+    <ImageButton
+        android:id="@+id/ib_accion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:tint="@color/grey"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="16dp"
+        />
+
+</com.google.android.material.appbar.MaterialToolbar>

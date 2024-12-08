@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "98001031404",
+    "project_id": "fir-nosql-20216",
+    "storage_bucket": "fir-nosql-20216.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98001031404:android:0f6abfbba4644bf60a15c9",
+        "android_client_info": {
+          "package_name": "com.example.ejemplo_nosql"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpVh-qlJrdzOkY9x_bNHNYVQthgRoLWZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
